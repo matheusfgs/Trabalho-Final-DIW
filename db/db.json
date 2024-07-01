@@ -1,0 +1,42 @@
+{
+  "repos": [
+    {
+      "id": 1,
+      "title": "Projeto de Gerenciamento de Tarefas",
+      "description": "Um aplicativo web para organizar suas tarefas diárias com facilidade.",
+      "image": "assets/imgs/img-tarefas.jpg",
+      "stars": 19,
+      "watchers": 4,
+      "url": "/repo.html?id=1"
+    },
+    {
+      "id": 2,
+      "title": "Plataforma de Compartilhamento de Receitas",
+      "description": "Explore e compartilhe suas receitas favoritas.",
+      "image": "assets/imgs/img-receita.jpg",
+      "stars": 19,
+      "watchers": 4,
+      "url": "/repo.html?id=2"
+    }
+  ],
+  "colleagues": [
+    {
+      "id": 1,
+      "username": "gnvr29",
+      "name": "Nome do Colleague 1",
+      "avatar_url": "https://github.com/gnvr29.png"
+    },
+    {
+      "id": 2,
+      "username": "",
+      "name": "Nome do Colleague 2",
+      "avatar_url": ""
+    },
+    {
+      "id": 3,
+      "username": "Silas-Hoffmann",
+      "name": "Nome do Colleague 3",
+      "avatar_url": "https://github.com/Silas-Hoffmann.png"
+    }
+  ]
+}

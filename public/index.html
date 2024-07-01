@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal - Matheus Fuscaldi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Matheus Fuscaldi</h1>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#repos">Repositórios</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <div class="profile">
+                <img id="github-avatar" src="" alt="Avatar do GitHub">
+                <div class="profile-info">
+                    <h3 id="github-name">Nome do GitHub</h3>
+                    <p id="github-bio">Descrição do GitHub</p>
+                </div>
+            </div>
+        </section>
+        <section id="repos">
+            <h2>Repositórios</h2>
+            <div id="github-repos" class="repos-container">
+                <!-- Repositórios serão carregados aqui -->
+            </div>
+        </section>
+        <section id="colleagues">
+            <h2>Colegas de Trabalho</h2>
+            <div class="colleagues-container">
+                <!-- Cards dos colegas serão adicionados aqui -->
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Meus Sonhos</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <img src="assets/imgs/fazenda-trabalho-415x238.jpg" alt="Projeto 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/imgs/pedro-do-rio.jpg" alt="Projeto 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/imgs/destaque-o-papel-dos-pais-exclusiva.jpg" alt="Projeto 3">
+                    </div>
+                </div>
+                <button class="carousel-prev">&lt;</button>
+                <button class="carousel-next">&gt;</button>
+                <div class="carousel-indicators">
+                    <span class="carousel-indicator active"></span>
+                    <span class="carousel-indicator"></span>
+                    <span class="carousel-indicator"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Matheus Fuscaldi</p>
+        <p>Engenharia de Software - PUC MINAS</p>
+    </footer>
+    <script src="assets/scripts/app.js" defer></script>
+</body>
+</html>
